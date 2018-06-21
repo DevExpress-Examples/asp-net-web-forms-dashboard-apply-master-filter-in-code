@@ -20,10 +20,11 @@
         <dx:ASPxDashboard ID="ASPxDashboard1" runat="server" 
             WorkingMode="Viewer" 
             ClientInstanceName="webDashboard"
-            ClientSideEvents-Init="function() { initializeFilters(); }" 
-            Width="100%" Height="100%"></dx:ASPxDashboard>
+            Width="100%" Height="100%">
+            <ClientSideEvents Init="function() { initializeFilters(); }" />
+        </dx:ASPxDashboard>
     </div>
     </form>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/MasterFiltering.js")%>"></script>
 </body>
 </html>
-<script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/MasterFiltering.js")%>"></script>
