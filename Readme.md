@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MasterFiltering.js](./CS/WebDashboard_SetMasterFilter/Scripts/MasterFiltering.js) (VB: [MasterFiltering.js](./VB/WebDashboard_SetMasterFilter/Scripts/MasterFiltering.js))
+* [WebForm1.aspx](./CS/WebDashboard_SetMasterFilter/WebForm1.aspx) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_SetMasterFilter/WebForm1.aspx.vb))
+* [WebForm1.aspx.cs](./CS/WebDashboard_SetMasterFilter/WebForm1.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_SetMasterFilter/WebForm1.aspx.vb))
+<!-- default file list end -->
 # ASPxDashboard - How to apply master filtering in code
 
 
