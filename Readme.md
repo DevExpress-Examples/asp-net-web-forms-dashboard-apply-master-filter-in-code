@@ -6,6 +6,9 @@
 * [WebForm1.aspx.cs](./CS/WebDashboard_SetMasterFilter/WebForm1.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_SetMasterFilter/WebForm1.aspx.vb))
 <!-- default file list end -->
 # ASPxDashboard - How to: Apply Master Filter in Code
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t490897/)**
+<!-- run online end -->
 
 
 This example demonstrates how to apply a master filter in the [Web Dashboard](https://docs.devexpress.com/Dashboard/115955) on the [client side](https://docs.devexpress.com/Dashboard/116302) 
