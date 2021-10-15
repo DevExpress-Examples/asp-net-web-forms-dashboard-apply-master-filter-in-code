@@ -12,7 +12,7 @@
 <!-- default file list end -->
 # ASPxDashboard - How to: Apply Master Filter in Code
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t490897/)**
+**[[Run Online]](https://codecentral.devexpress.com/128579785/)**
 <!-- run online end -->
 
 
