@@ -8,10 +8,8 @@
 //------------------------------------------------------------------------------
 
 namespace WebDashboard_SetMasterFilter {
-    
-    
-    public partial class WebForm1 {
-        
+    public partial class Default {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +18,7 @@ namespace WebDashboard_SetMasterFilter {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// ASPxDashboard1 control.
         /// </summary>

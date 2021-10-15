@@ -1,1 +1,0 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="WebDashboard_SetMasterFilter.Global_asax" Language="C#" %>

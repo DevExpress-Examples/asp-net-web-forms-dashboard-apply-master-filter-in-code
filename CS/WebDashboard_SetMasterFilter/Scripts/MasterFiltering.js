@@ -1,23 +1,29 @@
-function initializeFilters() {
+var dashboardControl;
+var viewerApiExtension;
+
+function onBeforeRender(s, e) {
+    dashboardControl = s.GetDashboardControl();
+    viewerApiExtension = dashboardControl.findExtension('viewer-api');
+}
+
+function initializeFilters(s, e) {
     function applyFilters() {
         var selectedValues = [['UK', 'Anne Dodsworth'], ['USA', 'Andrew Fuller']];
-        var selectedRange = new ASPxClientDashboardRangeFilterSelection();
-        selectedRange.Minimum = new Date(2015, 1, 1);
-        selectedRange.Maximum = new Date(2015, 12, 31);
+        var selectedRange = { minimum: new Date(2015, 1, 1), maximum: new Date(2015, 12, 31) };
 
         setMasterFilter('gridDashboardItem1', selectedValues);
         setRange('rangeFilterDashboardItem1', selectedRange);
     }
 
     function setMasterFilter(itemName, selectedValues) {
-        if (webDashboard.CanSetMasterFilter(itemName)) {
-            webDashboard.SetMasterFilter(itemName, selectedValues);
+        if (viewerApiExtension.canSetMasterFilter(itemName)) {
+            viewerApiExtension.setMasterFilter(itemName, selectedValues);
         }
     }
 
     function setRange(itemName, selectedRange) {
-        if (webDashboard.CanSetMasterFilter(itemName)) {
-            webDashboard.SetRange(itemName, selectedRange);
+        if (viewerApiExtension.canSetMasterFilter(itemName)) {
+            viewerApiExtension.setRange(itemName, selectedRange);
         }
     }
 
@@ -27,8 +33,8 @@ function initializeFilters() {
     }
 
     function clearMasterFilter(itemName) {
-        if (webDashboard.CanClearMasterFilter(itemName)) {
-            webDashboard.ClearMasterFilter(itemName);
+        if (viewerApiExtension.canClearMasterFilter(itemName)) {
+            viewerApiExtension.clearMasterFilter(itemName);
         }
     }
 

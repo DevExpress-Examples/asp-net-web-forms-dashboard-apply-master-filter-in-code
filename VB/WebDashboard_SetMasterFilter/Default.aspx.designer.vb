@@ -8,9 +8,7 @@
 '------------------------------------------------------------------------------
 
 Namespace WebDashboard_SetMasterFilter
-
-
-	Partial Public Class WebForm1
+	Partial Public Class [Default]
 
 		''' <summary>
 		''' form1 control.
