@@ -17,6 +17,6 @@ In this example, the [ASPxClientDashboard.SetMasterFilter](https://docs.devexpre
 ## Files to Look At
 
 * [MasterFiltering.js](./CS/WebDashboard_SetMasterFilter/Scripts/MasterFiltering.js) (VB: [MasterFiltering.js](./VB/WebDashboard_SetMasterFilter/Scripts/MasterFiltering.js))
-* [WebForm1.aspx](./CS/WebDashboard_SetMasterFilter/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/WebDashboard_SetMasterFilter/WebForm1.aspx))
-* [WebForm1.aspx.cs](./CS/WebDashboard_SetMasterFilter/WebForm1.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_SetMasterFilter/WebForm1.aspx.vb))
+* [Default.aspx](./CS/WebDashboard_SetMasterFilter/Default.aspx) (VB: [Default.aspx](./VB/WebDashboard_SetMasterFilter/Default.aspx))
+* [WebForm1.aspx.cs](./CS/WebDashboard_SetMasterFilter/Default.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_SetMasterFilter/Default.aspx.vb))
 <!-- default file list end -->
