@@ -1,12 +1,11 @@
-var dashboardControl;
-var viewerApiExtension;
+function onBeforeRender(s) {
+    let dashboardControl = s.GetDashboardControl();
+    let viewerApiExtension = dashboardControl.findExtension('viewerApi');
 
-function onBeforeRender(s, e) {
-    dashboardControl = s.GetDashboardControl();
-    viewerApiExtension = dashboardControl.findExtension('viewer-api');
+    initializeFilters(viewerApiExtension);
 }
 
-function initializeFilters(s, e) {
+function initializeFilters(viewerApiExtension) {
     function applyFilters() {
         var selectedValues = [['UK', 'Anne Dodsworth'], ['USA', 'Andrew Fuller']];
         var selectedRange = { minimum: new Date(2015, 1, 1), maximum: new Date(2015, 12, 31) };
