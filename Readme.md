@@ -4,19 +4,31 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Dashboard for Web Forms - How to Apply Master Filters in Code
+# Dashboard for Web Forms - How to Apply Master Filter on the Client
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128579785/)**
 <!-- run online end -->
 
-This example demonstrates how to apply a master filter in the [Web Dashboard](https://docs.devexpress.com/Dashboard/115955) on the [client side](https://docs.devexpress.com/Dashboard/116302) 
+This example shows how to apply a master filter in the Web Dashboard on the client.
 
-In this example, the [ASPxClientDashboard.SetMasterFilter](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_ASPxClientDashboard_SetMasterFilter_itemName_values_) method selects rows in the [Grid](https://docs.devexpress.com/Dashboard/117161/) dashboard item while the [ASPxClientDashboard.SetRange](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_ASPxClientDashboard_SetRange_itemName_range_)  method selects the range in the [Range Filter](https://docs.devexpress.com/Dashboard/117168/) dashboard item.  These methods are called in the **onClick** event handler of the [dxButton](https://js.devexpress.com/DevExtreme/20_2/ApiReference/UI_Widgets/dxButton/).
+![Web Dashboard - Apply Master Filtering values](images/master-filtering-example.png)
 
-<!-- default file list -->
-## Files to Look At
+- The [ViewerApiExtension.setMasterFilter](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension?p=netframework#js_devexpress_dashboard_viewerapiextension_setmasterfilter_itemname_values_) applies the Master Filter values to the Grid item.
+- The [ViewerApiExtension.setRange](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension#js_devexpress_dashboard_viewerapiextension_setrange_itemname_range_) applies the range to the Range Filter item.
+
+
+The [dxButton](https://js.devexpress.com/DevExtreme/ApiReference/UI_Components/dxButton/)'s `onClick` event handler calls these methods.
+
+## Files to Review
 
 * [MasterFiltering.js](./CS/WebDashboard_SetMasterFilter/Scripts/MasterFiltering.js) (VB: [MasterFiltering.js](./VB/WebDashboard_SetMasterFilter/Scripts/MasterFiltering.js))
 * [Default.aspx](./CS/WebDashboard_SetMasterFilter/Default.aspx) (VB: [WebForm1.aspx](./VB/WebDashboard_SetMasterFilter/Default.aspx))
 * [Default.aspx.cs](./CS/WebDashboard_SetMasterFilter/Default.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_SetMasterFilter/Default.aspx.vb))
-<!-- default file list end -->
+
+## Documentation
+
+- [Interactivity in the Web Dashboard](https://docs.devexpress.com/Dashboard/116985/web-dashboard/create-dashboards-on-the-web/interactivity?p=netframework)
+
+## More Examples
+
+- [Dashboard for MVC - How to Apply Master Filter on the Client](https://github.com/DevExpress-Examples/mvc-dashboard-apply-master-filtering-in-code)
