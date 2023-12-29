@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Dashboard for Web Forms - How to Apply Master Filter on the Client
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128579785/)**
-<!-- run online end -->
 
 This example shows how to apply a master filter in the Web Dashboard on the client.
 
